@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"title": "teclado",
+		"description": "teclado genius",
+		"code": 1236781,
+		"price": 3000,
+		"status": true,
+		"stock": 3,
+		"category": "computación"
+	},
+	{
+		"id": 2,
+		"title": "mouse",
+		"description": "mouse genius",
+		"code": 12346781,
+		"price": 2000,
+		"status": true,
+		"stock": 9,
+		"category": "computación"
+	},
+	{
+		"id": 3,
+		"title": "parlante",
+		"description": "parlante jbl",
+		"code": 123432455,
+		"price": 4000,
+		"status": true,
+		"stock": 5,
+		"category": "electrónica"
+	},
+	{
+		"id": 4,
+		"title": "monitor",
+		"description": "monitor samsung",
+		"code": "32141234",
+		"price": "12000",
+		"status": "true",
+		"stock": "3",
+		"category": "computación"
+	}
+]

@@ -1,0 +1,24 @@
+<h1 class="mx-3">Usuarios</h1>
+<table class="my-3 table">
+    <thead>
+        <tr>
+            <th>N.</th>
+            <th>User</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each users}}
+            <tr>
+                <td>{{@index}}</td>
+                <td>{{first_name}}</td>
+                <td>{{email}}</td>
+                <td>{{role}}</td>
+                <td><a href="/api/users/delete/{{_id}}" class="btn btn-danger">Borrar</a></td>
+            </tr>
+        {{/each}}
+
+    </tbody>
+</table>
