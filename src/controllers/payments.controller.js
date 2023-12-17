@@ -1,7 +1,8 @@
 import Stripe from "stripe";
 import { ProductsService } from "../services/products.service.js";
+import {config} from "../config/config.js"
 
-const stripe = new Stripe("sk_test_51ONMEYGltsoWeGbCQt0ZGyQ15IZuhkClzItbJo2Br9I8Ji01KzdeWhNu4uFoHUprQoToXaQ1PwPPEtNfwKEnyPsC003cwrX1rE");
+const stripe = new Stripe(config.stripe.key);
 
 export class PaymentsController{
     static createSession = async(req,res)=>{
