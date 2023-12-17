@@ -24,8 +24,8 @@ export class PaymentsController{
                 }
             ],
             mode:"payment",
-            success_url:"http://localhost:8080/success",
-            cancel_url:"http://localhost:8080/api/payments/cancel"
+            success_url:"https://pf-padula-production.up.railway.app/api/payments/success",
+            cancel_url:"https://pf-padula-production.up.railway.app/api/payments/cancel"
         })
         return res.redirect(session.url)
     }
